@@ -1,0 +1,282 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana;
+    font-size: 18px;
+    line-height: 1.5;
+    background:#F8F8F8;
+    color: #636463;
+}
+/*Global*/
+.container{
+ width: 80%;
+ margin:auto;
+/* overflow: hidden;
+ align-content: center;*/
+}
+
+/*Header*/
+header #topblock{
+    margin-left:20px;
+    margin-bottom:none;
+    padding-top: 5px;
+    
+}
+#topbox{
+    border-top:#D4AC0D 2px solid;
+    margin-top:1%;
+    width: 99.4%;
+    padding: 4px;
+    background: #34495E;
+    
+}
+
+header{
+    background:#34495E;
+    width: 100%;
+    margin:auto;
+    padding-top: 50px;
+    max-height: 200px;
+    border-bottom: #D4AC0D 3px solid;
+    border-top: #D4AC0D 3px solid;
+    /*position:fixed;*/
+    top: 0%;
+}
+
+
+header a{
+    text-decoration: none;
+    color: #D4AC0D;
+    text-transform: uppercase;
+    font-size:25px;
+}
+
+header li{
+    display: inline;
+    padding: 0 10% 0 11%;
+}
+
+header .topname{
+    float: left;
+    text-decoration: none;
+    color:#D4AC0D;
+    text-transform: uppercase;
+    font-size:18px;
+    padding:none;
+}
+
+header .profilepic img{
+    border:  #D4AC0D 3px solid;
+    border-radius: 100%;
+    width:250px;
+    margin:none; 
+}
+
+header .topname h1{
+    margin-top:5.5%;
+}
+
+header .navbar{
+    margin-top: none;
+    min-width:80%;
+    padding:1px;
+    background:#34495E;
+    border-top:#D4AC0D 3px solid;
+}
+header nav{
+    width: 65%;
+    margin-left:auto; 
+    margin-right:0;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*
+header .current a{
+    color: #D4AC0D;
+}*/
+
+header a:hover{
+    color:#E7EF69;
+    padding:10px;
+    background: #34495E;
+    /*border-radius: 10px;
+    border:#D4AC0D 3px solid;*/
+}
+
+.section{
+    margin-top:15%;
+    margin-left:12%;
+    text-align: justify;
+}
+
+.section h1{
+    color: #34495E;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+}
+.form-group{
+    padding-bottom:30;
+
+}
+.contactform label{
+    margin-bottom:-15px;
+    display:block;
+    color:#34495E;
+    font-weight: none;
+    font-size: 12px;
+}
+
+.contactform input[type="text"], .contactform input[type="email"], .contactform textarea{
+    padding:10px;
+	width:100%;
+}
+
+form .button1:hover{
+    background: #FF7E33;
+}
+
+form .button1{
+    width:20%;
+    height:5%;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: none;
+    background:#D4AC0D;
+    font-weight: bold;
+    border-radius:20px;
+    color: #ffffff;
+}
+#workexperience{
+    font-size: 16px;
+    color:#636463;
+}
+.workexp h4{
+    font-size: 20px;
+    color:#34495E;
+    text-transform: uppercase;
+    align-items: stretch;
+    font-weight: 600;
+    
+}
+
+.company a {
+    text-decoration: none;
+    color: #D4AC0D;
+    
+}
+
+.workexp img {
+padding-top:-55%;
+margin: none;
+} 
+
+.certlink a:visited{
+color:#D4AC0D;
+    }
+.certlink a{
+color:#D4AC0D;
+}
+
+.certlink a:hover{
+color:#C10541;
+}
+
+.company a:visited {
+  color: #D4AC0D;
+ 
+} 
+.company a:hover{
+    color:#C10541;
+ }
+.company{
+    color: #D4AC0D;
+    text-transform: uppercase;
+  
+}
+#socialtext{
+    font-size: 25px;
+    font-weight: 200;
+}
+ul .socialbutton {
+    list-style-type:none;
+    padding-left: none;
+    margin: none;
+}
+.socialbutton{
+        padding-left: 0;
+        align-content: center;
+}
+
+.socialbutton li{
+    display: inline;
+    padding-left: none;
+}
+
+#onlineprofile h1{
+    text-transform: uppercase;
+    font-weight:400; 
+}
+.year{
+    color:#B9BAB9;
+    font-size: 14px;
+    font-weight: none;
+    text-transform: uppercase;
+}
+footer{
+    margin-top:10%;
+    background-color:#34495E;
+    background-attachment: scroll;
+    width: 100%;
+    color:#ffffff;
+    font-family: Calibri;
+    font-size: 12px;
+    text-align: center;
+    border-top: #D4AC0D 2px solid;
+}
+
+
+/* mediaquery*/ /*add that class/id to the mediaquery*/
+@media(max-width:768px){
+    footer{
+        float: left;;
+    }
+   header .topname{
+    float: none;
+    text-align: left;
+    margin: none;
+    padding:none;
+    width:100%;
+   }
+   header .profilepic img{
+       padding: none;
+       margin: none;
+   }
+   #onlineprofile{
+    float:none;
+    padding-top:50%;
+}
+   header nav,
+  .contactform{
+       float: none;
+       text-align: left;
+       width:100%;
+   }
+   header .navbar{
+       float:left;
+       width:100%;
+       padding:none;
+       margin:none;
+   }
+   .section{
+  float:left;
+}
+
+
+}

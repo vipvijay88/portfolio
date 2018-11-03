@@ -1,0 +1,143 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana;
+    font-size: 18px;
+    line-height: 1.5;
+    background:#F8F8F8;
+}
+
+/*Global*/
+.container{
+ width: 80%;
+ margin:auto;
+ overflow: hidden;
+ align-content: center;
+}
+
+ul{
+    background: #34495E;
+    min-width: 100%;
+    float:left;
+    padding:0;
+    margin:auto;
+}
+
+/*Header*/
+
+.navbartop{
+    padding-top:none;
+}
+
+header #topblock{
+    margin-left:15px;
+    margin-bottom:none;
+    padding-top: 30px;
+}
+header #topblock topname{
+    margin:none;
+}
+header{
+    background:#34495E;
+    color: #ffffff;
+    width: 100%;
+    margin:auto;
+    padding-top: 100px;
+    max-height: 200px;
+    border-bottom: #D4AC0D 3px solid;
+}
+
+header a{
+    padding:none;
+    text-decoration: none;
+    color: #D4AC0D;
+    text-transform: uppercase;
+    font-size:25px;
+}
+
+header li{
+    display: inline;
+    padding: 0 80px 0 0;
+    
+}
+
+header .topname{
+    float: left;
+    text-decoration: none;
+    color:#D4AC0D;
+    text-transform: uppercase;
+    font-size:18px;
+    padding:none;
+}
+
+header .profilepic img{
+    border: #D4AC0D 2px solid;
+    width:250px;
+    margin:none;
+    
+}
+
+header .topname h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*
+header .current a{
+    color: #D4AC0D;
+}*/
+
+header a:hover{
+    color:#F6F11E;
+}
+
+.section{
+    margin-top:50px;
+    text-align: justify;
+    
+    
+}
+
+.section h1{
+    color: #34495E;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+/* Contactform */
+
+.contactform input, .contactform textarea{
+    width:100%;
+}
+
+form .button1{
+    width:25%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+footer{
+    background-color:#34495E;
+    width: 80%;
+    margin:auto;
+    color:#ffffff;
+    font-family: Calibri;
+    font-size: 12px;
+    text-align: center;
+    border-top: #D4AC0D 2px solid;
+}
+/* mediaquery*/
+@media(max-width:768px){
+   header .topname,
+   header nav,
+   header nav li,
+   .contactform{
+       float: none;
+       text-align: left;
+       width:100%;
+   }
+ 
+    }
+}
