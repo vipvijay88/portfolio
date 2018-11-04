@@ -49,6 +49,8 @@ header a{
     font-size:25px;
 }
 
+
+
 header li{
     display: inline;
     padding: 0 10% 0 11%;
@@ -175,7 +177,9 @@ form .button1{
 .workexp img {
 padding-top:-55%;
 margin: none;
+
 } 
+
 
 .certlink a:visited{
 color:#D4AC0D;
@@ -243,7 +247,7 @@ footer{
 
 
 /* mediaquery*/ /*add that class/id to the mediaquery*/
-@media(max-width:768px){
+@media(max-width:1300px){
     footer{
         float: left;;
     }
